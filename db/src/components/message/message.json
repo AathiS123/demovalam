@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_message_messages",
+  "info": {
+    "displayName": "Message",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_welcome_notes_welcome_notes",
+  "info": {
+    "displayName": "WelcomeNotes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text",
+      "required": true
+    },
+    "Heading": {
+      "type": "text",
+      "required": true
+    },
+    "Paragraph": {
+      "type": "text",
+      "required": true
+    },
+    "Button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

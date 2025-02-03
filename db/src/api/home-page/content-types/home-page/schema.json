@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
+    },
+    "WelcomeNotes": {
+      "displayName": "WelcomeNotes",
+      "type": "component",
+      "repeatable": false,
+      "component": "welcome-notes.welcome-notes",
+      "required": true
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.cards",
+      "required": true
+    },
+    "DoctorsInformation": {
+      "displayName": "DoctorsInformation",
+      "type": "component",
+      "repeatable": false,
+      "component": "doctors-information.doctors-information",
+      "required": true
+    },
+    "QuerySection": {
+      "displayName": "QuerySection",
+      "type": "component",
+      "repeatable": false,
+      "component": "query-section.query-section",
+      "required": true
+    }
+  }
+}

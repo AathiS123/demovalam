@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_doctors_information_doctors_informations",
+  "info": {
+    "displayName": "DoctorsInformation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "text",
+      "required": true
+    },
+    "Paragraph": {
+      "type": "text",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Number1": {
+      "type": "string",
+      "required": true
+    },
+    "Number2": {
+      "type": "string",
+      "required": true
+    },
+    "AvailableHrs1": {
+      "type": "text",
+      "required": true
+    },
+    "AvailableHrs2": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

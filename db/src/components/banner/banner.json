@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_banner_banners",
+  "info": {
+    "displayName": "BannerSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
